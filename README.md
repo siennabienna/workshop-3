@@ -20,3 +20,5 @@ Website: https://siennabienna.github.io/workshop_2/
 ## Then, to actually use the funtion CheeseArtist that I set up, I created 4 pieces of cheese and entered the variables in for each one. I gave each one a new colour too.
 
 ![image](https://github.com/user-attachments/assets/e7f6fffe-fbd4-413d-a57e-171670158f24)
+
+![image](https://github.com/user-attachments/assets/9feefcd3-944d-4299-8ca3-3552c44a678c)
