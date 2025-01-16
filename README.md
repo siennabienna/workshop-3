@@ -5,16 +5,18 @@ Website: https://siennabienna.github.io/workshop_2/
 
 ## I created the function 'CheeseArtist' which would allow me to draw cheese easily. I made the variables of this function SliceX (where the slice is on the x), SliceY (where the slice is on the Y), size, and holecount. 
 
-![image](https://github.com/user-attachments/assets/4bd1260b-26e4-41b5-afcd-7ffcf1962e28)
+![image](https://github.com/user-attachments/assets/52a8a96a-4068-44fa-963e-29ecf6f51f1d)
+
 
 ## I then kept the 'for' loop from my last cheese that would allow me to generate the holes. 
 
-![image](https://github.com/user-attachments/assets/909017b8-21df-420c-81a8-05e0470f87ff)
+![image](https://github.com/user-attachments/assets/d00f7624-8692-4277-977d-3fc98fc0e413)
+
 
 ## I then had to change the variables in random, so that the holes would generate on top of the slices of cheese. For this, I did  let x = random(sliceX, sliceX + size); let y = random(sliceY, sliceY + size);. This is so that it would find the top left corner of the cheese slice, and then add slice onto it so that it would find the full area of the cheese.
 
 ![image](https://github.com/user-attachments/assets/bb04d6fc-dd62-4d3e-b4c1-795ae299351b)
 
-## Then, to actually use the funtion CheeseArtist that I set up, I created 4 pieces of cheese and entered the variables in for each one.
+## Then, to actually use the funtion CheeseArtist that I set up, I created 4 pieces of cheese and entered the variables in for each one. I gave each one a new colour too.
 
 ![image](https://github.com/user-attachments/assets/e7f6fffe-fbd4-413d-a57e-171670158f24)
