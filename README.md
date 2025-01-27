@@ -75,7 +75,7 @@ Whilst improving my cheese code, I got the hang for using VSCode. I had a browse
 
 # Using `rotate` and `translate`
 
-After the ill-fated attempt of trying to make my swiss cheese clock actually legible, I wanted to have another go at making a slightly better clock. To stay on theme, I decided to make it a mouse clock. I first created a mouse using 2D shaped in a google drawing, to give me a good reference point on how to draw my mouse using the code.
+After the ill-fated attempt of trying to make my swiss cheese clock actually legible, I wanted to have another go at making a slightly better clock. To stay on theme, I decided to make it a mouse clock. I first created a mouse using 2D shapes in a google drawing, to give me a good reference point on how to draw my mouse using the code.
 
 ![image](https://github.com/user-attachments/assets/430e50a2-3806-4698-8b60-7839dcbd4269)
 
