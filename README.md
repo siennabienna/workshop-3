@@ -66,6 +66,13 @@ This is so that it would find the top left corner of the cheese slice, and then 
 
 Then, to actually use the funtion CheeseArtist that I set up, I created 4 pieces of cheese and entered the variables in for each one. I gave each one a new colour too.
 
+# Customising VSCode
+
+Whilst improving my cheese code, I got the hang for using VSCode. I had a browse through the extensions to find any that looked interesting, and I found a cool theme, as well as an extension to make little animal friends appear next to my code (called vscode-pets)! Would recommend. 
+
+![image](https://github.com/user-attachments/assets/fc68e6e0-3af4-4ab9-82b0-5c755e25e7bd)
+
+
 # Using `rotate` and `translate`
 
 After the ill-fated attempt of trying to make my swiss cheese clock actually legible, I wanted to have another go at making a slightly better clock. To stay on theme, I decided to make it a mouse clock. I first created a mouse using 2D shaped in a google drawing, to give me a good reference point on how to draw my mouse using the code.
@@ -88,7 +95,7 @@ Reddit Page I found Helpful:
 
 https://www.reddit.com/r/learnjavascript/comments/r6h86t/how_do_i_rotate_shape_in_p5js/?rdt=53084
 
-When rotaing, I was using it so that it would rotate the whole canvas and the entre nouse around my new `x` and `y` coordinates. To fix this, I needed to figure out how to re-draw everything but the head back into its origninal place so it would appear to be staying still. So in my function `mouseHead()`, I had to put in `rotate` at the start of the function, and also at the end to set this back into place. The rest I was just able to leave as the loop would re-draw it each time.
+When rotaing, I was using it so that it would rotate the whole canvas and the entre mouse around my new `x` and `y` coordinates. To fix this, I needed to figure out how to re-draw everything but the head back into its origninal place so it would appear to be staying still. So in my function `mouseHead()`, I had to put in `rotate` at the start of the function, and also at the end to set this back into place. The rest I was just able to leave as the loop would re-draw it each time.
 
 The code for my mouse clock:
 ```js
