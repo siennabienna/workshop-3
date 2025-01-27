@@ -80,8 +80,9 @@ I found help from these webpages:
 
 p5 Pages:
 
-https://p5js.org/reference/p5/translate/ 
-https://p5js.org/reference/p5/rotate/ 
+`translate`: https://p5js.org/reference/p5/translate/ 
+
+`rotate`: https://p5js.org/reference/p5/rotate/ 
 
 Reddit Page I found Helpful:
 
@@ -189,7 +190,7 @@ setInterval(()=>{
 Helpful source for this:
 https://www.geeksforgeeks.org/javascript-anonymous-functions/ 
 
-I had to figure out how to make the mouse head tick like the hand on a clock. To do this, I established the varible mouseTilt, and then calculated the tilt. To do this, I divided the circle (360 degrees) by the seconds in a minute (60), so I knew for the mouse head to tilt all the way around it would need to move at 6 degrees a second. I then added the variable `mouseTilt` to the parameters of the `mouseHead` (the parameters for `mouseHead` were `x` `y` and `angle`). However, this would just assign the current second to the corresponding angle on the clock. To make it actually tick, I had to increase the `mouseTilt` by 6 everytime the function `startMouseClock` was run, which would update the angle each time the second changed.
+I had to figure out how to make the mouse head tick like the hand on a clock. I established the varible mouseTilt, and then calculated the tilt. To do this, I divided the circle (360 degrees) by the seconds in a minute (60), so I knew for the mouse head to tilt all the way around it would need to move at 6 degrees a second. I then added the variable `mouseTilt` to the parameters of the `mouseHead` (the parameters for `mouseHead` were `x` `y` and `angle`). However, this would just assign the current second to the corresponding angle on the clock. To make it actually tick, I had to increase the `mouseTilt` by 6 everytime the function `startMouseClock` was run, which would update the angle each time the second changed.
 
 ```js
 mouseTilt = mouseTilt + second()*6;
