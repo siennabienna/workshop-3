@@ -187,7 +187,7 @@ function clockNum(){
 
 # Using `setInterval` and `setTimeout`
 
-Atfter this, I then added `setInterval` to my code, which I added to a new function called `startMouseClock`. This just operated similarly to a draw function, but would allow me to do `setTimeout` after. 
+After this, I then added `setInterval` to my code, which I added to a new function called `startMouseClock`. This just operated similarly to a draw function, but would allow me to do `setTimeout` after. 
 I created this, which is called an 'anonymous function'. I used this because I knew I would only need to use it once, so it wouldnt need a name.
 
 ```js
