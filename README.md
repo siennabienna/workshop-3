@@ -197,7 +197,7 @@ setInterval(()=>{
 Helpful source for this:
 https://www.geeksforgeeks.org/javascript-anonymous-functions/ 
 
-I had to figure out how to make the mouse head tick like the hand on a clock. I established the varible mouseTilt, and then calculated the tilt. To do this, I divided the circle (360 degrees) by the seconds in a minute (60), so I knew for the mouse head to tilt all the way around it would need to move at 6 degrees a second. I then added the variable `mouseTilt` to the parameters of the `mouseHead` (the parameters for `mouseHead` were `x` `y` and `angle`). However, this would just assign the current second to the corresponding angle on the clock. To make it actually tick, I had to increase the `mouseTilt` by 6 everytime the function `startMouseClock` was run, which would update the angle each time the second changed.
+I had to figure out how to make the mouse head tick like the hand on a clock. I established the varible `mouseTilt`, and then calculated the tilt. To do this, I divided the circle (360 degrees) by the seconds in a minute (60), so I knew for the mouse head to tilt all the way around it would need to move at 6 degrees a second. I then added the variable `mouseTilt` to the parameters of the `mouseHead` (the parameters for `mouseHead` were `x` `y` and `angle`). However, this would just assign the current second to the corresponding angle on the clock. To make it actually tick, I had to increase the `mouseTilt` by 6 everytime the function `startMouseClock` was run, which would update the angle each time the second changed.
 
 ```js
 mouseTilt = mouseTilt + second()*6;
@@ -217,10 +217,13 @@ setTimeout(startMouseClock, 2000);
 textAlign(CENTER,CENTER);
 text(`you're running late`, 200, 200)
 ```
-Just wanted it to hold for 2 secconds.
+Just wanted it to hold for 2 seconds.
 
 Link to p5 for 'MOUSE RAN UP THE CLOCK (JAVA EDITION)': https://editor.p5js.org/siennabearbum/full/zjxM153De
 
 I wanted to put this into my repository for this workshop, but by the time I had coded this, my swiss cheese had already been forked a couple of times so I figured I shouldn't change it.
  
-
+# Ideas for Further Development
+- Create more `setTimeout` drawings, I had an idea that maybe every 5 seconds the clock switches back to a title page for a few seconds. I thought maybe I could write out a line from the nursery rhyme 'Hickory Dickory Dock' on each title screen, so it shows the whole rhyme over the course of the minute. To do this, I could possibly use the `second()` function, and assign different text screens to different seconds past the minute. Or perhaps I could use `setInterval` to get it to flash after a certain number of seconds.
+- Create more sketches using complex drawings - I have found that drawing with 2D primitive shapes may be one of my favourite things to do in a p5 sketch.
+- I want to do something that combines different screens and drawings with something interactive - perhaps using `mouseX` and `mouseY` to feed the mouse some cheese, or maybe having the mouse head pop up through a hole in swiss cheese and you have to pat it like a whack-a-mole.
